@@ -3,20 +3,21 @@ html, body{
   padding: 0px;
   background-color: #F47E56;
   overflow: hidden;
+  font-family: 'Permanent Marker';
   
 }
 h1 {
-  font-family: 'Permanent Marker';
+  
   text-align: center;
   position: relative;
   z-index: 2;
   color: #D0473C; 
-  font-size: 75px;
+  font-size: 8vw;
   text-shadow: 4px 5px #000; 
 }
 
 div.row {
-  background-color: rgba(0, 0, 0, 0.041);
+ 
   position: relative;
   top: -150px;
   
@@ -33,9 +34,7 @@ img#logo {
   
 }
 input.form-control {
-  
   display: block;
- 
   margin: 0 auto;
 }
 
@@ -59,3 +58,67 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* jrfiuegiugreuireiu */
+
+
+
+
+
+.burgerAvailable {
+  float: left;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  position: relative;
+  z-index: 2;
+}
+
+.burgerAvailable:hover {
+background-color: rgba(255, 255, 255, 0.349);
+
+}
+div.thespacebetween {
+margin: 20px 0px 20px;
+text-align: center;
+font-size: 4vmax;
+
+}
+
+.burgerEaten {
+  
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.493);
+  margin: 10px;
+  padding: 10px;
+}
+
+.addBurgerButton {
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+background-color: #fff;
+  border: none;
+}
+
+
+
