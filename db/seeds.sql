@@ -1,7 +1,8 @@
--- Creating seed data for the burgers_db database --
-insert into burgers (burger_name, devoured) values ("Tunami Burger", false);
-insert into burgers (burger_name, devoured) values ("Olive Free or Die Hard Burger", false);
-insert into burgers (burger_name, devoured) values ("Thank Goodness It's Fried Egg Burger", false);
-insert into burgers (burger_name, devoured) values ("Poblano Picasso Burger", true);
-insert into burgers (burger_name, devoured) values ("New Bacon-ings Burger", true);
-insert into burgers (burger_name, devoured) values ("Mission A-corn plished Burger", true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Silent Serenade Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Red-Rum Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Darkling Thrush Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Sick Rose Burger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Meat is Murder Burger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('The Kübler-Ross', true);
+
+SELECT * FROM burgers_db.burgers;
