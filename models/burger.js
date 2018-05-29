@@ -11,8 +11,8 @@ var burger = {
     orm.update('burgers',id,cb);
   },
 
-  create: function(name,cb){
-    orm.create('burgers', name, cb);
+  create: function(names, cb){
+    orm.create('burgers', names, cb);
   } 
 }
 
