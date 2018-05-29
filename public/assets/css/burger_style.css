@@ -15,6 +15,13 @@ h1 {
   text-shadow: 4px 5px #000; 
 }
 
+div.row {
+  background-color: rgba(0, 0, 0, 0.041);
+  position: relative;
+  top: -150px;
+  
+}
+
 
 img#logo {
   margin: 0 auto;
@@ -24,6 +31,12 @@ img#logo {
   top: -250px;
   z-index: 1;
   
+}
+input.form-control {
+  
+  display: block;
+ 
+  margin: 0 auto;
 }
 
 
