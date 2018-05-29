@@ -1,7 +1,30 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #F47E56;
+  overflow: hidden;
+  
+}
 h1 {
   font-family: 'Permanent Marker';
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  color: #D0473C; 
+  font-size: 75px;
+  text-shadow: 4px 5px #000; 
 }
 
+
+img#logo {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  position: relative;
+  top: -250px;
+  z-index: 1;
+  
+}
 
 
 li {
