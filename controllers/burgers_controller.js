@@ -27,8 +27,5 @@ router.post('/burgers/create',function(req,res){
   })
 })
 
-app.get("/favicon.ico", function (req, res) {
-  res.sendFile(path.join(__dirname, "../public/favicon/favicon.ico"));
-});
 
 module.exports = router;
