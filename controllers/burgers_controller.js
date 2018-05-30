@@ -13,6 +13,7 @@ router.get('/', function(req,res){
   })
 })
 
+
 router.put('/burgers/update',function(req,res){
   burger.update(req.body.burger_id, function(result){
     console.log(result);
@@ -25,5 +26,9 @@ router.post('/burgers/create',function(req,res){
     res.redirect('/');
   })
 })
+
+app.get("/favicon.ico", function (req, res) {
+  res.sendFile(path.join(__dirname, "../public/favicon/favicon.ico"));
+});
 
 module.exports = router;
