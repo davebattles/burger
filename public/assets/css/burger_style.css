@@ -1,28 +1,25 @@
-html, body{
+html,
+body {
   margin: 0px;
   padding: 0px;
   background-color: #F47E56;
   overflow: hidden;
   font-family: 'Permanent Marker';
-  
 }
+
 h1 {
-  
   text-align: center;
   position: relative;
   z-index: 2;
-  color: #D0473C; 
+  color: #D0473C;
   font-size: 8vw;
-  text-shadow: 4px 5px #000; 
+  text-shadow: 4px 5px #000;
 }
 
 div.row {
- 
   position: relative;
   top: -150px;
-  
 }
-
 
 img#logo {
   margin: 0 auto;
@@ -31,13 +28,7 @@ img#logo {
   position: relative;
   top: -250px;
   z-index: 1;
-  
 }
-input.form-control {
-  display: block;
-  margin: 0 auto;
-}
-
 
 li {
   padding: 5px;
@@ -52,35 +43,24 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
+  background: rgb(255, 0, 0);
 }
 
 .form-group {
   margin-bottom: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* jrfiuegiugreuireiu */
-
-
-
-
+.button-size {
+  margin: 0px;
+  padding: 0px;
+}
 
 .burgerAvailable {
   float: left;
   font-weight: normal;
   font-size: 20px;
   text-align: center;
-  width: 100%;
+  width: 98%;
   margin: 10px;
   padding: 10px;
   border: none;
@@ -89,18 +69,16 @@ li {
 }
 
 .burgerAvailable:hover {
-background-color: rgba(255, 255, 255, 0.349);
-
+  background-color: rgba(255, 255, 255, 0.349);
 }
-div.thespacebetween {
-margin: 20px 0px 20px;
-text-align: center;
-font-size: 4vmax;
 
+div.thespacebetween {
+  margin: 20px 0px 20px;
+  text-align: center;
+  font-size: 4vmax;
 }
 
 .burgerEaten {
-  
   font-weight: normal;
   font-size: 20px;
   text-align: center;
@@ -116,9 +94,6 @@ font-size: 4vmax;
   width: 100%;
   margin: 0;
   padding: 10px;
-background-color: #fff;
+  background-color: #fff;
   border: none;
 }
-
-
-
