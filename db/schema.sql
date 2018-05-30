@@ -5,5 +5,6 @@ create table burgers
 	id int not null auto_increment,
 	burger_name varchar(255) not null,
 	devoured boolean default false,
+	createdAt TIMESTAMP NOT NULL,
   primary key(id)
 );
