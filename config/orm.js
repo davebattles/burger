@@ -15,7 +15,7 @@ var orm = {
     })
   },
   create: function(tableInput,val,cb){
-    connection.query('insert into '+tableInput+" (burger_name) values ("+val+");", function(err,result){
+    connection.query('insert into '+tableInput+" (burger_name) values ('"+val+"');", function(err,result){
       if(err)throw err;
       cb(result);
     })
